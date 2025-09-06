@@ -56,13 +56,15 @@ The best performing 2D approaches were adapted for 3D processing:
 
 ### 2D Results
 
+#### Overall
+
 | Approach | F1-Score | Jaccard Index | Time (sec) |
 |----------|----------|---------------|------------|
 | A1 (MCV + K-Means) | 0.91 | 0.85 | 56.86 |
 | A2 (MGAC + K-Means) | 0.92 | 0.862 | 62.27 |
 | A3 (MGAC + Multi-Otsu) | 0.92 | 0.858 | 60.66 |
 
-#### Per-Region 2D Results
+#### Per-Region
 
 | Region | Tissue | A1 (MCV + K-Means) | A2 (MGAC + K-Means) | A3 (MGAC + Multi-Otsu) |
 |--------|--------|-------------------|---------------------|------------------------|
@@ -75,16 +77,18 @@ The best performing 2D approaches were adapted for 3D processing:
 
 **2D Visualizations:**
 
-<img src="demo/a1_2d_1.png" width="300" alt="A1 2D"> <img src="demo/a2_2d_1.png" width="300" alt="A2 2D"> <img src="demo/a3_2d_1.png" width="300" alt="A3 2D">
+<img src="demo/a1_2d_1.png" width="250" alt="A1 2D"> <img src="demo/a2_2d_1.png" width="250" alt="A2 2D"> <img src="demo/a3_2d_1.png" width="250" alt="A3 2D">
 
 ### 3D Results
+
+#### Overall
 
 | Approach | F1-Score | Jaccard Index | Time (sec) |
 |----------|----------|---------------|------------|
 | A2 3D (MGAC + K-Means) | 0.93 | 0.867 | 144.69 |
 | A3 3D (MGAC + Multi-Otsu) | 0.93 | 0.865 | 141.11 |
 
-#### Per-Region 3D Results
+#### Per-Region
 
 | Region | Tissue | A2 3D (MGAC + K-Means) | A3 3D (MGAC + Multi-Otsu) |
 |--------|--------|------------------------|----------------------------|
