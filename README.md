@@ -16,7 +16,7 @@ This project works with 10 consecutive axial cross-sections of a publicly availa
   - Label 4: Gray Matter
   - Label 5: White Matter
 
-<img src="demo/t1_1.png" width="250" alt="T1 MRI"> <img src="demo/gt_1.png" width="250" alt="Ground Truth">
+<img src="demo/t1_1.png" width="300" alt="T1 MRI"> <img src="demo/gt_1.png" width="300" alt="Ground Truth">
 
 ## What Was Done
 
@@ -75,7 +75,7 @@ The best performing 2D approaches were adapted for 3D processing:
 
 **2D Visualizations:**
 
-<img src="demo/a1_2d_1.png" width="150" alt="A1 2D"> <img src="demo/a2_2d_1.png" width="150" alt="A2 2D"> <img src="demo/a3_2d_1.png" width="150" alt="A3 2D">
+<img src="demo/a1_2d_1.png" width="300" alt="A1 2D"> <img src="demo/a2_2d_1.png" width="300" alt="A2 2D"> <img src="demo/a3_2d_1.png" width="300" alt="A3 2D">
 
 ### 3D Results
 
@@ -97,7 +97,7 @@ The best performing 2D approaches were adapted for 3D processing:
 
 **3D Visualizations:**
 
-<img src="demo/a2_3d_1.png" width="150" alt="A2 3D"> <img src="demo/a3_3d_1.png" width="150" alt="A3 3D">
+<img src="demo/a2_3d_1.png" width="300" alt="A2 3D"> <img src="demo/a3_3d_1.png" width="300" alt="A3 3D">
 
 <img src="demo/gt_a2_a3_3d.png" width="800" alt="GT 3D">
 
