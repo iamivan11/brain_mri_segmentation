@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "brain-mri-segmentation"
+version = "0.1.0"
+description = "Environment for Brain MRI segmentation notebook"
+authors = ["Ivan Sorokin"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "*"
+matplotlib = "*"
+opencv-python = "*"
+scipy = "*"
+scikit-learn = "*"
+scikit-image = "*"
+threadpoolctl = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
