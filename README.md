@@ -16,7 +16,7 @@ This project works with 10 consecutive axial cross-sections of a publicly availa
   - Label 4: Gray Matter
   - Label 5: White Matter
 
-![T1 MRI](demo/t1_1.png) ![Ground Truth](demo/gt_1.png)
+<img src="demo/t1_1.png" width="250" alt="T1 MRI"> <img src="demo/gt_1.png" width="250" alt="Ground Truth">
 
 ## What Was Done
 
@@ -62,8 +62,20 @@ The best performing 2D approaches were adapted for 3D processing:
 | A2 (MGAC + K-Means) | 0.92 | 0.862 | 62.27 |
 | A3 (MGAC + Multi-Otsu) | 0.92 | 0.858 | 60.66 |
 
+#### Per-Region 2D Results
+
+| Region | Tissue | A1 (MCV + K-Means) | A2 (MGAC + K-Means) | A3 (MGAC + Multi-Otsu) |
+|--------|--------|-------------------|---------------------|------------------------|
+| 0 | Air | F1=0.97, J=0.937 | F1=0.95, J=0.900 | F1=0.95, J=0.899 |
+| 1 | Skin/scalp | F1=0.82, J=0.700 | F1=0.87, J=0.774 | F1=0.87, J=0.774 |
+| 2 | Skull | F1=0.84, J=0.732 | F1=0.74, J=0.593 | F1=0.74, J=0.593 |
+| 3 | CSF | F1=0.64, J=0.471 | F1=0.87, J=0.769 | F1=0.87, J=0.775 |
+| 4 | Gray Matter | F1=0.94, J=0.889 | F1=0.94, J=0.895 | F1=0.94, J=0.888 |
+| 5 | White Matter | F1=0.98, J=0.957 | F1=0.97, J=0.943 | F1=0.97, J=0.933 |
+
 **2D Visualizations:**
-![A1 2D](demo/a1_2d_1.png) ![A2 2D](demo/a2_2d_1.png) ![A3 2D](demo/a3_2d_1.png)
+
+<img src="demo/a1_2d_1.png" width="150" alt="A1 2D"> <img src="demo/a2_2d_1.png" width="150" alt="A2 2D"> <img src="demo/a3_2d_1.png" width="150" alt="A3 2D">
 
 ### 3D Results
 
@@ -72,8 +84,22 @@ The best performing 2D approaches were adapted for 3D processing:
 | A2 3D (MGAC + K-Means) | 0.93 | 0.867 | 144.69 |
 | A3 3D (MGAC + Multi-Otsu) | 0.93 | 0.865 | 141.11 |
 
+#### Per-Region 3D Results
+
+| Region | Tissue | A2 3D (MGAC + K-Means) | A3 3D (MGAC + Multi-Otsu) |
+|--------|--------|------------------------|----------------------------|
+| 0 | Air | F1=0.95, J=0.906 | F1=0.95, J=0.905 |
+| 1 | Skin/scalp | F1=0.87, J=0.771 | F1=0.87, J=0.771 |
+| 2 | Skull | F1=0.77, J=0.627 | F1=0.77, J=0.627 |
+| 3 | CSF | F1=0.87, J=0.774 | F1=0.88, J=0.778 |
+| 4 | Gray Matter | F1=0.95, J=0.898 | F1=0.94, J=0.895 |
+| 5 | White Matter | F1=0.97, J=0.947 | F1=0.97, J=0.943 |
+
 **3D Visualizations:**
-![A2 3D](demo/a2_3d_1.png) ![A3 3D](demo/a3_3d_1.png) ![GT 3D](demo/gt_a2_a3_3d.png)
+
+<img src="demo/a2_3d_1.png" width="150" alt="A2 3D"> <img src="demo/a3_3d_1.png" width="150" alt="A3 3D">
+
+<img src="demo/gt_a2_a3_3d.png" width="800" alt="GT 3D">
 
 ### Observation
 
