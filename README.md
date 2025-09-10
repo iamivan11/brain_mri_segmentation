@@ -1,4 +1,4 @@
-# Brain MRI Segmentation
+# Brain MRI Segmentation with traditional CV
 
 We study 2D and 3D brain MRI tissue segmentation using traditional computer vision techniques. This project develops and evaluates multiple segmentation approaches on T1-weighted MRI data to segment 6 tissue classes: air, skin/scalp, skull, CSF, gray matter, and white matter.
 
